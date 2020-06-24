@@ -25,11 +25,11 @@ Pseudocode:
 */
 
 function countLetters(inputString) {
-  let countedLetters = [];
+  let countedLetters = {};
   let lowerCaseString = inputString.toLowerCase();
   for (let char of lowerCaseString) {
     if (char !== " ") {
-      if (char in countedLetters){
+      if (countedLetters[char]){
         countedLetters[char] += 1;
       } else {
         countedLetters[char] = 1;
@@ -37,12 +37,13 @@ function countLetters(inputString) {
     }
 
   }
+  console.log(countedLetters);
   return countedLetters;
 }
 
 
 //TESTS:
-countLetters("lighthouse in the house"); 
+//countLetters("lighthouse in the house"); 
 /*{
   l: 1,
   i: 2,
@@ -57,5 +58,6 @@ countLetters("lighthouse in the house");
 }
 */
 
-countLetters("Sarasss");
-countLetters("Sara Irving"); 
+countLetters("Sarasss");  // { s: 4, a: 2, r: 1 }
+countLetters("Sara Irving"); // { s: 1, a: 2, r: 2, i: 2, v: 1, n: 1, g: 1 });
+
