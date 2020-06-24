@@ -14,7 +14,7 @@ function eqArrays (array1, array2) {
 }
 
 
-function assertArraysEquals (array1, array2) {
+function assertArraysEqual (array1, array2) {
   if (eqArrays(array1, array2)) {
     return console.log(`👍👍👍Array Assertion Passed: ${array1} equals ${array2}`);
   } else {
