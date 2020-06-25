@@ -7,18 +7,13 @@ const assertEqual = function(actual, expected) {
 };
 
 function findKeyByValue(object, value) {
-  for (let key in object) {
+  for (let key of Object.keys(object)) {
     if (object[key] === value) {
       return key;
     }
   }
   return undefined;
 }
-
-
-
-
-
 
 
 
