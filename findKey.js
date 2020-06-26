@@ -16,24 +16,12 @@ const assertEqual = function(actual, expected) {
 
 
 const findKey = function (object, callback) {
-  //access all the keys in the object
-  //loop through them and feed them to the callback 
   for (let key of Object.keys(object)) {
-    //console.log("key: ", key);
-    //console.log("callback(key) evaluates to: ", callback(object[key]));
     if (callback(object[key])) {
       return key;
     }
   }
 }
-
-
-
-
-
-
-
-
 
 
 //Tests:
