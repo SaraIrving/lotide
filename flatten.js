@@ -42,5 +42,5 @@ function flatten (array) {
 
 module.exports = flatten;
 
-//TESTS:
-console.log(flatten([1, 2, [3, 4], 5, [6]])) // => [1, 2, 3, 4, 5, 6]
+// //TESTS:
+// console.log(flatten([1, 2, [3, 4], 5, [6]])) // => [1, 2, 3, 4, 5, 6]
