@@ -38,22 +38,22 @@ function assertArraysEqual (array1, array2) {
   }
 }
 
-//TESTS: 
-const words = ["ground", "control", "to", "major", "tom"];
-const results1 = map(words, word => word[0]);
-assertArraysEqual(results1, [ 'g', 'c', 't', 'm', 't' ]);
+// //TESTS: 
+// const words = ["ground", "control", "to", "major", "tom"];
+// const results1 = map(words, word => word[0]);
+// assertArraysEqual(results1, [ 'g', 'c', 't', 'm', 't' ]);
 
-const dinner = ['pie', 'cake', 'wine'];
-const food = map(dinner, dinOption => dinOption.toUpperCase());
-assertArraysEqual(food, [ 'PIE', 'CAKE', 'WINE' ]);
+// const dinner = ['pie', 'cake', 'wine'];
+// const food = map(dinner, dinOption => dinOption.toUpperCase());
+// assertArraysEqual(food, [ 'PIE', 'CAKE', 'WINE' ]);
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-const bigNums = map(numbers, num => {
-  if (num % 2 === 0) {
-    return num * 500; 
-  } else {
-    return num;
-  }
-});
-assertArraysEqual(bigNums, [ 1, 1000, 3, 2000, 5, 3000, 7, 4000 ]);
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+// const bigNums = map(numbers, num => {
+//   if (num % 2 === 0) {
+//     return num * 500; 
+//   } else {
+//     return num;
+//   }
+// });
+// assertArraysEqual(bigNums, [ 1, 1000, 3, 2000, 5, 3000, 7, 4000 ]);
 
