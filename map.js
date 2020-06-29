@@ -15,6 +15,8 @@ const map = function (array, callback) {
   return results; 
 }
 
+module.exports = map;
+
 
 function eqArrays (array1, array2) {
   if (array1.length !== array2.length) {
