@@ -41,6 +41,7 @@ const takeUntil = function(array, callback) {
   }
 }
 
+module.exports = takeUntil;
 
 
 
