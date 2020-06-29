@@ -41,6 +41,7 @@ function countLetters(inputString) {
   return countedLetters;
 }
 
+module.exports = countLetters;
 
 //TESTS:
 //countLetters("lighthouse in the house"); 
