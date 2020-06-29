@@ -22,7 +22,7 @@ function assertArraysEqual (array1, array2) {
   }
 }
 
-/*
+/*                   
 Psuedocode:
 -return an array that is equal to the source minus itemsToRemove
 -create a variable to hold the new array
@@ -39,6 +39,8 @@ function without(source, itemsToRemove) {
   }
   return newArray;
 }
+
+module.exports = without;
 
 console.log("without returns: " , without([1, 2, 3], [1])); // => [2, 3]
 console.log("without returns: ", without(["1", "2", "3"], [1, 2, "3"])); // => ["1", "2"]
