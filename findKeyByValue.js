@@ -18,21 +18,21 @@ function findKeyByValue(object, value) {
 module.exports = findKeyByValue;
 
 
-const bestTVShowsByGenre = { 
-  sci_fi: "The Expanse",
-  comedy: "Brooklyn Nine-Nine",
-  drama:  "The Wire"
-};
+// const bestTVShowsByGenre = { 
+//   sci_fi: "The Expanse",
+//   comedy: "Brooklyn Nine-Nine",
+//   drama:  "The Wire"
+// };
 
-assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
-assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
+// assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
+// assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
 
-const bestFoodByRegion = {
-  thai: "Yellow Curry",
-  japanese: "Ramen",
-  mexican: "Tacos"
-};
+// const bestFoodByRegion = {
+//   thai: "Yellow Curry",
+//   japanese: "Ramen",
+//   mexican: "Tacos"
+// };
 
-assertEqual(findKeyByValue(bestFoodByRegion, "Yellow Curry"), "thai");
-assertEqual(findKeyByValue(bestFoodByRegion, "Ramen"), "japanese");
-assertEqual(findKeyByValue(bestFoodByRegion, "Tater tots"), undefined);
+// assertEqual(findKeyByValue(bestFoodByRegion, "Yellow Curry"), "thai");
+// assertEqual(findKeyByValue(bestFoodByRegion, "Ramen"), "japanese");
+// assertEqual(findKeyByValue(bestFoodByRegion, "Tater tots"), undefined);
