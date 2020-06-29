@@ -44,11 +44,11 @@ module.exports = letterPositions;
 
 
 
-//TESTS:
-//console.log(letterPositions("Sara"));
-//console.log(letterPositions("lighthouse in the house"));
+// //TESTS:
+// //console.log(letterPositions("Sara"));
+// //console.log(letterPositions("lighthouse in the house"));
 
-assertArraysEqual(letterPositions("hello").e, [1]);
-assertArraysEqual(letterPositions("Sara").a, [1, 3]);
-assertArraysEqual(letterPositions("lighthouse in the house").h, [3, 5, 15, 18]);
+// assertArraysEqual(letterPositions("hello").e, [1]);
+// assertArraysEqual(letterPositions("Sara").a, [1, 3]);
+// assertArraysEqual(letterPositions("lighthouse in the house").h, [3, 5, 15, 18]);
 
