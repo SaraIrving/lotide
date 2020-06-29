@@ -47,17 +47,17 @@ function assertObjectsEqual (actual, expected) {
 
 module.exports = assertObjectsEqual;
 
-//TESTS:
-const ab = { a: "1", b: "2" };
-const ba = { b: "2", a: "1" };
-assertObjectsEqual(ab, ba); // pass
+// //TESTS:
+// const ab = { a: "1", b: "2" };
+// const ba = { b: "2", a: "1" };
+// assertObjectsEqual(ab, ba); // pass
 
-const cd = { c: "1", d: ["2", 3] };
-const dc = { d: ["2", 3], c: "1" };
-assertObjectsEqual(cd, dc); //pass
+// const cd = { c: "1", d: ["2", 3] };
+// const dc = { d: ["2", 3], c: "1" };
+// assertObjectsEqual(cd, dc); //pass
 
-const cd2 = { c: "1", d: ["2", 3, 4] };
-assertObjectsEqual(cd, cd2); //fail
+// const cd2 = { c: "1", d: ["2", 3, 4] };
+// assertObjectsEqual(cd, cd2); //fail
 
-const abc = { a: "1", b: "2", c: "3" };
-assertObjectsEqual(ab, abc); //fail
+// const abc = { a: "1", b: "2", c: "3" };
+// assertObjectsEqual(ab, abc); //fail
