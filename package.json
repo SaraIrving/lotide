@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/SaraIrving/lotide.git"
   },
-  "author": "{name: "Sara Irving", email: "sarakirving@gmail.com"}",
+  "author": "{name: 'Sara Irving', email: 'sarakirving@gmail.com'}",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SaraIrving/lotide/issues"
