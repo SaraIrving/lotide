@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/SaraIrving/lotide/issues"
   },
-  "homepage": "https://github.com/SaraIrving/lotide#readme"
+  "homepage": "https://github.com/SaraIrving/lotide#readme",
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
 }
